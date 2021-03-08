@@ -9,5 +9,8 @@ D2 = repmat(D2, 64, 64);
 imgDither1 = img>D1;
 imgDither2 = img>D2;
 
-figure(); imshow(imgDither1);
-figure(); imshow(imgDither2);
+figure(); 
+subplot(1, 2, 1);
+imshow(imgDither1);
+subplot(1, 2, 2);
+imshow(imgDither2);

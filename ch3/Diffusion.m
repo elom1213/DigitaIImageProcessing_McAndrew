@@ -26,4 +26,5 @@ function result = Diffusion(filename)
     endfor
     
     whos img tmp result
+    imshow(result);
 endfunction 
