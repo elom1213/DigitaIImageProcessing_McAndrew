@@ -1,4 +1,4 @@
-﻿img = imread("pout.tif");
+img = imread("pout.tif");
 whos img;
 
 imshow(img);
